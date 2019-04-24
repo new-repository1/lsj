@@ -1,0 +1,8 @@
+# url是GIT服务器的仓库地址， searchPaths配置文件所在的文件夹在仓库中的路径,在server端不需要指定具体配置文件名
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/new-repository1/lsj.git
+          searchPaths: new-repository1/lsj/ConfigServer
