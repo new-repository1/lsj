@@ -5,9 +5,7 @@ spring:
       server:
         git:
           uri: https://github.com/new-repository1/lsj.git
-          searchPaths: new-repository1/lsj/ConfigServer/src/main/resources
-  profiles:
-    active: dev
-  application:
-    name: springcloudconfig
+          searchPaths: lsj/ConfigServer/src/main/resources
+server:
+  port : 8082
 
