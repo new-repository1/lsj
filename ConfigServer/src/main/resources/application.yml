@@ -5,4 +5,9 @@ spring:
       server:
         git:
           uri: https://github.com/new-repository1/lsj.git
-          searchPaths: new-repository1/lsj/ConfigServer
+          searchPaths: new-repository1/lsj/ConfigServer/src/main/resources
+  profiles:
+    active: dev
+  application:
+    name: springcloudconfig
+
