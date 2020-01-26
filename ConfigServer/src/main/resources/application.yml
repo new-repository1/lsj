@@ -7,6 +7,6 @@ spring:
           uri: https://github.com/yuanshuaif/SpringCloudConfig.git
           searchPaths: SpringCloudConfig
 server:
-  port : 8082
+  port : 8060
 
 
